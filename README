@@ -6,7 +6,7 @@ Tested on openSUSE Tumbleweed.
 Usage
 -----
 1. Clone this repository
-2. `mkdir -p /etc/pipewire/client.conf.d`
+2. `mkdir -p /etc/pipewire/client.conf.d` (system-wide) or `mkdir -p ~/.config/pipewire/pipewire.conf.d` (user)
 3. Copy the file 10-soundcraft-mtk12.conf into the above location, or create a symbolic link.
 4. Restart PipeWire
 
